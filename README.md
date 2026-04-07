@@ -57,6 +57,7 @@ mkdir models
 pip install ipykernel
 python -m ipykernel install --user --name py310 --display-name "py310"
 ```
+
 刷新后在`test.ipynb`文件中，右上角选择py310内核
 然后运行命令即可,出现如下界面即成功部署！
 ![image](./assets/interface.png)
