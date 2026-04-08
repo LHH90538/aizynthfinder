@@ -4,3 +4,5 @@ expansion:
     - ./models/uspto_templates.csv.gz
 stock:
   zinc: ./models/zinc_stock_17_04_20.hdf5
+
+
