@@ -32,7 +32,7 @@ poetry install --all-extras
 5.下载模型
 国内环境远程下载模型网络容易断，所以建议手动下载模型(如果打不开这个figshare网址，可能要科学上网)
 
-在aizynthfinder/文件夹里新建一个`model`文件夹用于放置模型
+在aizynthfinder/文件夹里新建一个`models`文件夹用于放置模型
 ```
 cd aizynthfinder/
 mkdir models
@@ -49,7 +49,7 @@ mkdir models
 - `uspto_model.onnx`（91.5MB）  
   下载地址：<https://zenodo.org/records/7797465>
 
-把这三个模型放在刚刚新建的`model`文件夹里(无需解压)
+把这三个模型放在刚刚新建的`models`文件夹里(无需解压)
 
 6.布置jupyter notebook界面注册内核
 在终端运行
